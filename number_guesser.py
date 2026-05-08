@@ -3,7 +3,7 @@ import random
 def show_instructions():
     print()
     print('Guess a number between 1 and 50.')
-    print('Try to  win in as few attempts as possible.')
+    print('Try to win in as few attempts as possible.')
     print()
 
 def play_game():
@@ -17,7 +17,7 @@ def play_game():
             guess = int(input('Guess a number between 1 and 50: '))
             attempts += 1
         except ValueError:
-            print('Please enter a number brochacho')
+            print('Please enter a number')
             continue
         if guess < secret_number:
             print('Guess higher')
@@ -27,15 +27,20 @@ def play_game():
 
 def menu():
     while True:
-        choice = input('Press 1 to play, 2 to show instructions, 3 to exit: > ')
+        choice = input('''
+Press 1 to play
+Press 2 to show instructions
+Press 3 to exit
+
+Your choice: ''')
         if choice.isdigit():
             choice = int(choice)
             if choice in(1, 2, 3):
                 return choice
             else:
-                print("Please enter 1, 2 or 3 brochacho")
+                print("Please enter 1, 2 or 3")
         else:
-            print("Please enter a number brochacho")
+            print("Please enter a number")
 
 
 print('Welcome to the number guessing game')
