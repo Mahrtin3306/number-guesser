@@ -36,6 +36,20 @@ The player keeps guessing until they find the correct number, while receiving hi
 
 ---
 
+## Screenshots
+
+### Main menu
+![Main menu](assets/menu.png)
+
+### Gameplay
+![Game](assets/game.png)
+
+### Instructions
+![Instructions](assets/instructions.png)
+
+### Quit game
+![Quit game](assets/exit.png)
+
 ## Run the Project
 
 ```bash
