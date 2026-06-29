@@ -25,6 +25,7 @@ The player must guess a randomly generated number between 1 and 50 in as few att
 - Higher/lower hints
 - Simple menu system
 - Replayable gameplay loop
+- New win counter added (29/06/2026)
 
 ---
 
